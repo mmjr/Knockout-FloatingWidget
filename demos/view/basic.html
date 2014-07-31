@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Floating Widget Demo Basic</title>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div id="hf_layersWidget" style="position:fixed;top: 170px; left: 17px; z-index: 1006" data-bind="template: {name: 'FloatingWidgetView', data: floatingWidget, afterRender: function (elems, data){data.init(elems)}}"></div>
+
+<script type="text/javascript" src="../../libs/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../../libs/knockout-3.0.0.debug.js"></script>
+<script type="text/javascript" src="../../libs/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="../../libs/jScrollPane.min.js"></script>
+<script type="text/javascript" src="../../libs/koExternalTemplateEngine_all.min.js"></script>
+<script type="text/javascript" src="../../src/FloatingWidgetControl.js"></script>
+<script type="text/javascript" src="../src/basic.js"></script>
+
+</body>
+</html>
